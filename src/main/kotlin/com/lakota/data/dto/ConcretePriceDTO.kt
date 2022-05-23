@@ -1,5 +1,7 @@
 package com.lakota.data.dto
 
+import java.math.BigDecimal
+
 data class ConcretePriceDTO(
-    val price: Int
+    val price: BigDecimal
 )
